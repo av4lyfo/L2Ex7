@@ -23,11 +23,8 @@ class AllBoats extends React.Component {
             <Boat name="Bayliner 175 Bowrider" description="Its outboard power gives you increased cockpit space and quiet, fuel-efficient performance." icon_name="sailboat" poster={require('./img/bayliner.jpg')}/>
             <Text></Text>
             <Boat name="Fairline Targa 47" description="Stretch out on the large sun bed aft while friends lounge in the generously appointed cockpit." icon_name="sailboat" poster={require('./img/fairline.jpg')}/>
-
             <Text></Text>
             <Text></Text>
-
-
 
         </ScrollView>
     );

@@ -1,9 +1,6 @@
 import {View, Text, Image, StyleSheet} from 'react-native';
 import Icon from "react-native-vector-icons/FontAwesome6";
 
-
-
-
 const Boat = ({name,description,icon_name,poster})=> {
     return (
 
@@ -23,7 +20,6 @@ const Boat = ({name,description,icon_name,poster})=> {
         </View>
     );
 };
-
 
 const styles = StyleSheet.create({
     boatContainer: {
