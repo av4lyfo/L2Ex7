@@ -7,15 +7,15 @@ const Boat = ({name,description,icon_name,poster})=> {
         <View style={styles.boatContainer}>
 
 
-            <Text style={{ fontSize: 25, color: '#808080', textTransform: 'uppercase'}}>
-                <Icon name ={icon_name} size={20} color="#808080"/>
+            <Text style={{ fontSize: 25, color: '#000000', textTransform: 'uppercase', textAlign: 'center' }}>
+                <Icon name ={icon_name} size={20} color="#000000"/>
                 {name}
             </Text>
 
-            <Text style={{ fontSize: 15, color: '#808080'}}>
+            <Text style={{ fontSize: 15, color: '#000000', marginBottom:30}}>
                 {description}
             </Text>
-            <Image source={poster} style={{height:500,width:'100%'}}/>
+            <Image source={poster} style={{height:300,width:'100%'}}/>
 
         </View>
     );
@@ -23,14 +23,14 @@ const Boat = ({name,description,icon_name,poster})=> {
 
 const styles = StyleSheet.create({
     boatContainer: {
-        backgroundColor: '#fff',
+        backgroundColor: '#438bcf',
         borderRadius: 10,
         padding: 20,
         marginBottom: 20,
         shadowColor: '#000',
         shadowOpacity: 0.1,
         shadowRadius: 10,
-        shadowOffset: { width: 0, height: 5 },
+
 
     }
 });

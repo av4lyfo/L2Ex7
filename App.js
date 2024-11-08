@@ -7,7 +7,7 @@ class AllBoats extends React.Component {
   render() {
     return (
 
-        <ScrollView style={styles.container}>
+        <ScrollView style={styles.container} scrollEventThrottle={16} overScrollMode="never">
           <Text></Text>
           <Text></Text>
           <Text style={styles.header}>GetABoat-For Sale</Text>
@@ -34,15 +34,17 @@ class AllBoats extends React.Component {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#f0f4f7',
+        backgroundColor: '#107edd',
         padding: 20,
     },
     header: {
         fontSize: 28,
-        color: '#333',
+        color: '#000000',
         fontWeight: 'bold',
         textAlign: 'center',
         marginVertical: 20,
+        backgroundColor:'#438bcf',
+        borderRadius:20
     }
 });
 
